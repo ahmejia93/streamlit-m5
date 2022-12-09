@@ -14,8 +14,9 @@ st.title("Socialize your Knowledge")
 st.markdown("_Site that would help and make easier for us to analyze the performance of Socialize your Knowledge employees_")
 
 #--- LOGO ---#
-st.sidebar.image("logo.jpg")
-st.sidebar.markdown("##")
+
+#st.sidebar.image("logo.jpg")
+#st.sidebar.markdown("##")
 #--- SIDEBAR FILTERS ---#
 gender = st.sidebar.multiselect("Select Gender",
                                 options=df['gender'].unique(),
